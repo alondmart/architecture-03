@@ -348,7 +348,7 @@ header {
 header h1 {
   margin: 0;
   font-size: 1.5rem;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 #navWrapper {
@@ -434,5 +434,10 @@ footer p {
   nav ul {
     flex-direction: row;
     justify-content: flex-end;
+  }
+  section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
   }
 }
