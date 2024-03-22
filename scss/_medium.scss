@@ -1,0 +1,25 @@
+header {
+    padding: 2rem $gutter;
+    h1 {
+       font-size: 2rem;
+       font-weight: $boldWeight;
+   }   
+   }
+   
+   // navigation stuff starts
+   nav {
+       ul {
+           display: flex;
+           flex-direction: row;
+           justify-content: space-around;
+       } //end of ul
+
+       a {
+           margin: 4px;
+       }
+   } //end of nav stuff
+   
+   div.imageParent {
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+   }

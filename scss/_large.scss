@@ -1,0 +1,10 @@
+header, nav, main {
+    max-width: 60rem;
+    margin: auto;
+}
+
+
+nav ul {
+    flex-direction: row;
+    justify-content: flex-end;
+}
