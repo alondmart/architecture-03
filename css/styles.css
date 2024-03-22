@@ -439,4 +439,9 @@ footer p {
     flex-direction: row;
     justify-content: flex-end;
   }
+  section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
 }
