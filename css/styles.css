@@ -391,6 +391,18 @@ h1 {
   margin: 0 16px;
 }
 
+video {
+  width: 100%;
+}
+
+details {
+  margin: 0.5rem 0;
+  padding: 0.75rem;
+  border: 1px solid #4d7300;
+  border-radius: 5px;
+  background-color: #EAF1DF;
+}
+
 #footerWrapper {
   background-color: #4d7300;
 }
