@@ -389,6 +389,7 @@ h1 {
 
 .videoStuff {
   margin: 0 16px;
+  width: auto;
 }
 
 video {
